@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="contact.html">Контакты</a></li>
+      <li><a href="application.html">Оставить заявку</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Отправка заявки</h1>
+  </header>
+
+  <section class="inspection-form">
+    <h2>Запись на технический осмотр</h2>
+    <form action="#" method="POST">
+      <table>
+        <tr>
+          <th><label for="name">ФИО:</label></th>
+          <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+          <th><label for="phone">Телефон:</label></th>
+          <td><input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11}" required></td>
+        </tr>
+        <tr>
+          <th><label for="vehicle">Тип транспорта:</label></th>
+          <td>
+            <select id="vehicle" name="vehicle" required>
+              <option value="">Выберите тип</option>
+              <option value="car">Легковой автомобиль</option>
+              <option value="truck">Грузовой автомобиль</option>
+              <option value="motorcycle">Мотоцикл</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="date">Дата осмотра:</label></th>
+          <td><input type="date" id="date" name="date" required></td>
+        </tr>
+        <tr>
+          <th><label for="time">Время:</label></th>
+          <td><input type="time" id="time" name="time" required></td>
+        </tr>
+      </table>
+      <button type="submit" class="submit-btn">Отправить заявку</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Услуги ремонта транспорта. Все права защищены.</p>
+  </footer>
+</body>
+</html>

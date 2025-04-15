@@ -1,0 +1,19 @@
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.bold-text {
+  font-weight: bold;
+}

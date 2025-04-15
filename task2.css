@@ -1,0 +1,39 @@
+.red-text {
+  color: red;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.colored-list > li {
+  color: blue;
+}
+
+.colored-list > li > ol > li {
+  color: green;
+}
+
+.colored-list > li:last-child {
+  color: orange;
+}
+
+.varying-sizes span:nth-child(1) {
+  font-size: 12px;
+}
+
+.varying-sizes span:nth-child(2) {
+  font-size: 16px;
+}
+
+.varying-sizes span:nth-child(3) {
+  font-size: 20px;
+}
+
+.varying-sizes span:nth-child(4) {
+  font-size: 24px;
+}
+
+.varying-sizes span:nth-child(5) {
+  font-size: 28px;
+}
